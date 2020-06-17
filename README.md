@@ -1,10 +1,10 @@
 # classifier-bert
 
-**\*\*\*\*\* June 16th, 2020: BERT classifier with Kickstarter project description \*\*\*\*\***
+**\*\*\*\*\* June 16th, 2020: BERT classifier training with Kickstarter project description \*\*\*\*\***
 
 We use this repo to easily apply BERT on our clssification task with Kickstarter data.
 
-Before running this example you must download the kickstarter data we already prepared under the folder glue_data/KICK and unpack it to some directory $GLUE_DIR. Next, download the [`BERT-Base, Uncased`](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip) checkpoint and unzip it to some directory $BERT_BASE_DIR.
+Before running our example you must download the kickstarter data we already prepared under the folder glue_data/KICK and unpack it to some directory $GLUE_DIR. Next, download the [`BERT-Base, Uncased`](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip) checkpoint and unzip it to some directory $BERT_BASE_DIR.
 
 Then you can run the code below
 
