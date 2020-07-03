@@ -1,4 +1,4 @@
-export BERT_BASE_DIR=$HOME/projects/classifier-bert/uncased_L-8_H-512_A-8
+export BERT_BASE_DIR=$HOME/projects/classifier-bert/uncased_L-12_H-768_A-12
 export GLUE_DIR=$HOME/projects/classifier-bert/glue_data
 
 python run_classifier.py \
@@ -13,4 +13,4 @@ python run_classifier.py \
   --train_batch_size=32 \
   --learning_rate=3e-5 \
   --num_train_epochs=4.0 \
-  --output_dir=/tmp/kick_output_medium/
+  --output_dir=/tmp/kick_output_base/
