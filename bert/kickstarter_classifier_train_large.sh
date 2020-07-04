@@ -1,7 +1,7 @@
 export PROJECTS=/mnt/projects
 export TMP=/mnt/tmp
 export CUDA_VISIBLE_DEVICES=1
-export BERT_BASE_DIR=$PROJECTS/classifier-bert/wwm_uncased_L-24_H-1024_A-16
+export BERT_BASE_DIR=$PROJECTS/classifier-bert/uncased_L-24_H-1024_A-16
 export GLUE_DIR=$PROJECTS/classifier-bert/glue_data
 
 python run_classifier.py \
