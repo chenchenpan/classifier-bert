@@ -1,5 +1,8 @@
-export BERT_BASE_DIR=$HOME/projects/classifier-bert/uncased_L-12_H-768_A-12
-export GLUE_DIR=$HOME/projects/classifier-bert/glue_data
+export PROJECTS=/mnt/projects
+export TMP=/mnt/tmp
+export CUDA_VISIBLE_DEVICES=0
+export BERT_BASE_DIR=$PROJECTS/classifier-bert/uncased_L-12_H-768_A-12
+export GLUE_DIR=$PROJECTS/classifier-bert/glue_data
 
 python run_classifier.py \
   --task_name=MRPC \
@@ -13,4 +16,4 @@ python run_classifier.py \
   --train_batch_size=32 \
   --learning_rate=3e-5 \
   --num_train_epochs=4.0 \
-  --output_dir=/tmp/kick_output_base/
+  --output_dir=$TMP/kick_output_base/
